@@ -7,7 +7,6 @@
 
 # Practica1
 Etnan Jezreel Lopez Torres
-Sebastian Absalon Cortes
 
 <div class="just">
 
