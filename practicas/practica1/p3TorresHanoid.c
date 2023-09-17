@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define disco 3
-//Definir el numero de discos que se va a haber
+//Definir el numero de discos que va a haber
 
 void torres(int, char, char, char);
 
