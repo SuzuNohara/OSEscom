@@ -7,7 +7,7 @@
 
 # Practica1
 Etnan Jezreel Lopez Torres
-
+Gonzaga Martínez José Alberto
 Sebastian Absalon Cortes
 <div class="just">
 
