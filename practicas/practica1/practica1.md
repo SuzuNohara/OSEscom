@@ -88,5 +88,23 @@ Y a continuacion veremos su ejecucion en consola:
 
 ![](https://lh3.googleusercontent.com/fife/AKsag4MfE_Bd-x4_l3W7-RwH8mhuNcj13uiK5-vUh6lU4X5Lkbwy8i6cRPuIS-dOA4aCveP5ftMC2xxXOs13fhLAOTL18gD4cP7saBMGr7kW8M3unL2Jzkjs-Hk7E155VS-MwMHbtOs5F7dfK1hP336gjGZ3__fF23fSNs5cXOgWKJPYs2YuCYRLFfLKiCzK-ABDY75Z43BhqJ_aab8eE3A5sb1uOXxzbP3GULFaIOA_7f3igp2ObaQxWQx-1rUNP9hz2tNUtTLTyYEzTDESMG53RLbCL4kGWbe_stNWarKHMF38Y4UAp9TVLZbqmcUxaWAr7AdazhdvsYM0HEf3aBbyC1V2jJFZJB2ZdIoRDMD8XEtNaheCn8XgRc5pLbfFxK-WZMHgEORvr-SRioVoN_Zfunz7QPpufCV6g_yTY2DRkSOo0WJ62kPBjHGl_cqvCE2fpgI2Vg3IMq5JJkwTywmvDSxpjYCsVtrzs-iq80hXywiGvnxx6a2R75d6kCHy11noJawycxyNo928RNG0wLfO6mi2PGS1n5BkY27otRZK-li0OcYVcZTxuW8-wbHBZKRYf4w3c98OOnNQn5zudgq7ZuW7AD_WsPVCu5ZjBe1gWV_5-gmQEUSsq2OEfDXGwS8dHFg870RTX-zNR6edFgQHXQUVj9Apugb9T-73MuM3HRdyG0m3pLAajYb0ciQno-svQ1nlkX4CQpa9aRKBA73v5DaNo4m7jpo1f5XbF6rRsTH59ctuq4qsQ2AgeYthkv0d3z3CwyYwjgD2AZLDBe0ZDMkrhmnDFZoSvqmPej-zAHUEHp4X6SLVzgb8royaZoWS-97Ywxop7DP0dOoD2_w5QPmGuUGNIrEb58kOP6xHTNYAh6bZn3eD3wUIljMqj5Sn8LRov3IMmsDHFA3r92glQrSNUQUHMSjpWSfMqDCdwt47TcSQkfeXzMcJLC9s3GWyVoGZPa5WIqr4Yt9cUhzrwqiNtCar3InEtWJA-u1VT3QG2A5cSPKCzyjxdS_KkJQgu217FlCQq4rn0Rxs67tFTJ501BrTduQHvShMXRYcsVhKYccMh1nxerASJaMkQjFBCYsGN_0M6qQo4YLXr42JTfkCleAziE1ITUR8atiM1Ow-0RC5bPD__LDy0OH4olvOM6_YeBAyNe88X3zj8V0UTssnR7L46pfcEKy4xe1R_tD-L22gM7rDWJr7I4mXE5qCaSFnIlDrMZIt_HF3rjOH-osErn2H3MFMvfDVDkSXp0mdruDBQv7jv089Z60BOdVES469p0OBQMqmT7QbRZg3r7WO1weCuiaJ7ZjXqhT7ctA8o_8IH-H3_SUFs18zm4-9_quiM1TvcR461BViy0pfGdFmR7Z8cWMIzx-1HI9iu-iesxylsRQd9rXye-MQFQ-VpVMW_jiI7541z6jH13k9pLOF_91bcIlbP9Lran9xzPjcC8MS8GacGIzNl05GVS0zg_C4yhfjrXsjU_uaEhELHP47vEPP6jIE1X9K78kGf2yyfPvuzAa6BqCFr23A7s5RavFCX5pvojFSfziAuA6PzlgC8xJdqLzro-mBL_AFvC0z9jnRmnmYi-NP20DgWe6ct8DROsmeSqmX2b0x3IB6E-lECmqYyz8=w810-h663)
 
+## Comandos Windows
 
+|Comando| Funcion | Img |
+|-|-|-|
+| Dir |Se utiliza para listar los archivos y directorios(carpetas) dentro de un directorio especifico. |
+| Cd nombre_directorio |(Change directory) Se utiliza para cambiar el directorio actual o la carpeta en la que estas trabajando en la linea de comandos. |
+| Copy nombre_archivo <br> nombre_nuevo archivo|Se utiliza para copiar uno o más archivos desde una ubicacion a otra. |
+| ipconfig | Obtiene la información sobre la configuración de red de tu computadora. Proporciona detalles sobre la direccion de IP, la configuración de la interfaz de reed y otros datos relacionados con la conectividad de red |
+| Type nombre_archivo | Muestra el contenido de un archivo de texto directamente en la ventana de la consola. |
+| Ren nombre_archivo <br> nuevo_nombre_archivo| Se utiliza para cambiar el nombre de archivos o directorios (carpetas). |
+| Cls| Borra la pantalla o las ventanas de la consola, lo que hace que la pantalla quede limpia y sin texto. |
+| Mkdir nombre_directorio | Crea un nuevo directorio o carpeta en el sistema de archivos. |
+| Chdir nombre_directorio | Cambia el directorio actual |
+| Ver | Te da la version actual que estas utilizando en Windows | 
+|rmdir nombre_directorio | Elimina o borra un directorio o carpeta vacía en el sistema de archivos | 
+|echo "Hola mundo"| Muestra mensajes de texto en la pantalla o para redirigir texto a un archivo|
+|Tree| Muestra una representación gráfica de la estructura de directorios. |
+|del nombre_archivo | Elimina archivos de manera permanente desde la línea de comandos |
+|Find "cadena_buscar" <br> nombre_archivo| Busca un texto especifico dentro de archivos de texto o dentro de la salida generada por otros comandos. |
 </div>
