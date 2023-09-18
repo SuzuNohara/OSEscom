@@ -90,6 +90,67 @@ Y a continuacion veremos su ejecucion en consola:
 
 ![](https://lh3.googleusercontent.com/fife/AKsag4MfE_Bd-x4_l3W7-RwH8mhuNcj13uiK5-vUh6lU4X5Lkbwy8i6cRPuIS-dOA4aCveP5ftMC2xxXOs13fhLAOTL18gD4cP7saBMGr7kW8M3unL2Jzkjs-Hk7E155VS-MwMHbtOs5F7dfK1hP336gjGZ3__fF23fSNs5cXOgWKJPYs2YuCYRLFfLKiCzK-ABDY75Z43BhqJ_aab8eE3A5sb1uOXxzbP3GULFaIOA_7f3igp2ObaQxWQx-1rUNP9hz2tNUtTLTyYEzTDESMG53RLbCL4kGWbe_stNWarKHMF38Y4UAp9TVLZbqmcUxaWAr7AdazhdvsYM0HEf3aBbyC1V2jJFZJB2ZdIoRDMD8XEtNaheCn8XgRc5pLbfFxK-WZMHgEORvr-SRioVoN_Zfunz7QPpufCV6g_yTY2DRkSOo0WJ62kPBjHGl_cqvCE2fpgI2Vg3IMq5JJkwTywmvDSxpjYCsVtrzs-iq80hXywiGvnxx6a2R75d6kCHy11noJawycxyNo928RNG0wLfO6mi2PGS1n5BkY27otRZK-li0OcYVcZTxuW8-wbHBZKRYf4w3c98OOnNQn5zudgq7ZuW7AD_WsPVCu5ZjBe1gWV_5-gmQEUSsq2OEfDXGwS8dHFg870RTX-zNR6edFgQHXQUVj9Apugb9T-73MuM3HRdyG0m3pLAajYb0ciQno-svQ1nlkX4CQpa9aRKBA73v5DaNo4m7jpo1f5XbF6rRsTH59ctuq4qsQ2AgeYthkv0d3z3CwyYwjgD2AZLDBe0ZDMkrhmnDFZoSvqmPej-zAHUEHp4X6SLVzgb8royaZoWS-97Ywxop7DP0dOoD2_w5QPmGuUGNIrEb58kOP6xHTNYAh6bZn3eD3wUIljMqj5Sn8LRov3IMmsDHFA3r92glQrSNUQUHMSjpWSfMqDCdwt47TcSQkfeXzMcJLC9s3GWyVoGZPa5WIqr4Yt9cUhzrwqiNtCar3InEtWJA-u1VT3QG2A5cSPKCzyjxdS_KkJQgu217FlCQq4rn0Rxs67tFTJ501BrTduQHvShMXRYcsVhKYccMh1nxerASJaMkQjFBCYsGN_0M6qQo4YLXr42JTfkCleAziE1ITUR8atiM1Ow-0RC5bPD__LDy0OH4olvOM6_YeBAyNe88X3zj8V0UTssnR7L46pfcEKy4xe1R_tD-L22gM7rDWJr7I4mXE5qCaSFnIlDrMZIt_HF3rjOH-osErn2H3MFMvfDVDkSXp0mdruDBQv7jv089Z60BOdVES469p0OBQMqmT7QbRZg3r7WO1weCuiaJ7ZjXqhT7ctA8o_8IH-H3_SUFs18zm4-9_quiM1TvcR461BViy0pfGdFmR7Z8cWMIzx-1HI9iu-iesxylsRQd9rXye-MQFQ-VpVMW_jiI7541z6jH13k9pLOF_91bcIlbP9Lran9xzPjcC8MS8GacGIzNl05GVS0zg_C4yhfjrXsjU_uaEhELHP47vEPP6jIE1X9K78kGf2yyfPvuzAa6BqCFr23A7s5RavFCX5pvojFSfziAuA6PzlgC8xJdqLzro-mBL_AFvC0z9jnRmnmYi-NP20DgWe6ct8DROsmeSqmX2b0x3IB6E-lECmqYyz8=w810-h663)
 
+## Flechas
+
+```C
+
+#include<stdio.h>
+
+int arrow(int size);
+
+int main(){
+    int size = 0;
+    char rand[20];
+    printf("Insert the size of the arrow: ");
+    scanf("%d", &size);
+    if(size % 2 == 0){
+        size--;
+    }
+    arrow(size);
+}
+
+int arrow(int size){
+    int line;
+    for(int k = 0; k < size / 2; k++){
+        for(int j = 0; j < size / 2 + 1; j++){
+            printf(" ");
+        }
+        printf("*");
+        for(int j = 0; j < size - k - 1; j++){
+            printf(" ");
+        }
+        for(int j = 0; j <= 0 + 2 * k; j++){
+            printf("*");
+        }
+        for(int j = 0; j < size / 2 - k; j++){
+            printf(" ");
+        }
+        printf("\n");
+    }
+    for(int i = 0; i <= size * 2; i++){
+        printf("*");
+    }
+    printf("\n");
+    for(int k = 0; k <= size / 2; k++){
+        for(int j = size / 2 - k; j <= size / 2; j++){
+            printf(" ");
+        }
+        for(int j = size - 2 * k; j >= 1; j--){
+            printf("*");
+        }
+        for(int j = size; j < size + (size / 2) + k; j++){
+            printf(" ");
+        }
+        printf("*");
+        printf("\n");
+    }
+
+}
+```
+![](https://lh3.googleusercontent.com/fife/AKsag4NdWghOG4goDb3y_hacGIVQKh7rDwwSlT_LtUZxXrN3GHZ8tNtdBR3tMXPZb555cpmrnLEHE8jUhDNj94vDb_2Epi8vUzATyWqGRPZ5uekILCxHlgC_t20UfhNr1MjHeb9iDt4zqDSeMVMcJXdQy-rQymPUr7ZIkkvJ50NtymgQTIJnq1mmkG-gtPM0QPlNGhRfvTZ3Mm6_54UHXU51xkptUSHIGxoMdM9Vbog9MCe4mxff76s5mymfGmK5_rsIuUerlPaZGWoV6vnMQTob7nhNRB9usebU4yv0r7dPcILtOffBIkI9j0rzEvFFN0T8pP20tTHb8SBS86sVyLOaFTXbbwyaRJkU-KuY9iVoHyBFvy_YQnfKDnBjFt3u6B2bCBIEsvNalBLZrV28gkasvxeuVFOkYSAUrAQ3CJGGuH7eHi5MevmqOaMjd68LnO_I-5Suotw32ot4D56PLmv_aKiSVwUPynOFCCr9oPQkOf23Vck-8Az3wtNJKwTpAIsDPadeaDAfxqRwwWSoKbu70RoxqAnKvjWeDHCFS0R3dtql3GboaPD9S_H3cyi59ktVErCeqsTv_yzQKNcmIWB3RsyweKkL_GDy1exaNgDtkAlwh25MVDbdtcs2AfLYu_NoM21xx3SedZdmBbTsBNYNdGyfYqsnA0jvxsIBhMjlKSBnFBCi4aMoRfmgJwweSN6f-oWWOBIIp1ljV2wVbLqZaxzIFAfOQC9hbpcby54o7q2aTJbgzBsA1NExOyVRaHfFwjlVwUqAmfwadlgVVK4YcjB-bV-eoqswHFZi-4s7HqQUVFdILTGF8KZfwWh_0ksqOIKCRCr6RAcgPTUgT_oIm3R7zCMzy1DprCOBM02XyzIFK-4_bmar4bJOQ3on28zzixkXECiJ9c5Pfi74SZqrTD4FaQCMhv5gyEPcsHpCPNNfh6Vxpy_Q3d0z70RadAvp_x7u5U6Nh23ThYe8pCnr7XoGaSd1EgqXDxaaOrm-iTOaOSDg94sQqV9FC5xtOhgcqNN4bzt5XNoriMyvdb4gVuDEgH9a5aHyvvAOozqVgj0pIyMi7Ro7xGeCU6pT3em_8msLN2YJgXxvVm1l6atLG39uSCbS9Eelp65eC9WTCSEGMmaKbIU3fgVR4pUycUGf8tKlOTIzrvie9e4gHxsX5xFojMHRjIHBizGQ3K_DJdNOdSc70tue4SzTsCqRpAQn5cXzZLvgJKxUZPlgWTD2XPaHeA5Vi27iyKf-581ur5dLN8ZK0Wbp4nMlgMNU5liXeTQkC9ax_f1UwSveD0lRzUdAy2ILwfQ94EZBzc56mLRP21sbCybGWJJ-8XcJDXs33xyQJ1SRwuBTet9xxNaP_jo7T8UNf3VAOGfas1GS3Pe7AvvElZwLW2K1yM5qXE9MNAaWWRZM0UQNccfa7YOHLtap_koSdLj7OLAzq9oeyv7LZ5ao5JA0fJ-hIhwSdzJOVLhmSrsKrtbr6UJl0km5RTAlW6cPSGa4qj6OpKuM0Yu06zNtDz6nz6V4O0DaUMOgCVA5rFHctaL2sCzFNVgu=w1365-h663)
+
+## Hanoi
+
 
 
 ## Comandos Windows
