@@ -155,10 +155,10 @@ int arrow(int size){
 
 ## Comandos Windows
 
-|Comando| Funcion | Img |
-|-|-|-|
-| Dir |Se utiliza para listar los archivos y directorios(carpetas) dentro de un directorio especifico. |
-| Cd nombre_directorio |(Change directory) Se utiliza para cambiar el directorio actual o la carpeta en la que estas trabajando en la linea de comandos. |
+|Comando| Funcion |
+|-|-|
+| Dir |Se utiliza para listar los archivos y directorios(carpetas) dentro de un directorio especifico. <br><br> [![Dir.png](https://i.postimg.cc/XY7NDjF1/Dir.png)](https://postimg.cc/xchSXS6L) |
+| Cd nombre_directorio |(Change directory) Se utiliza para cambiar el directorio actual o la carpeta en la que estas trabajando en la linea de comandos. <br><br> [![cd.png](https://i.postimg.cc/Yqxq3G4m/cd.png)](https://postimg.cc/MvvSZGmW) |
 | Copy nombre_archivo <br> nombre_nuevo archivo|Se utiliza para copiar uno o más archivos desde una ubicacion a otra. |
 | ipconfig | Obtiene la información sobre la configuración de red de tu computadora. Proporciona detalles sobre la direccion de IP, la configuración de la interfaz de reed y otros datos relacionados con la conectividad de red |
 | Type nombre_archivo | Muestra el contenido de un archivo de texto directamente en la ventana de la consola. |
