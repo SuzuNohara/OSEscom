@@ -151,7 +151,40 @@ int arrow(int size){
 
 ## Hanoi
 
+A continuacion tenemos el codigo de las torres de hanoi para n discos.
 
+```C
+#include <stdio.h>
+#define disco 3
+//Definir el numero de discos que va a haber
+
+void torres(int, char, char, char);
+
+int main()
+{
+    torres(disco, '1', '2', '3');
+    return 0;
+}
+
+//Funcion principal--------------------------------------------------------
+void torres(int num, char pos, char arriba, char aux)
+{
+    if (num == 1){
+        printf("\n Disco 1 del poste %c al poste %c", pos, arriba);
+        return;
+    }
+    
+    if (num > 1) {
+        torres(num - 1, pos, aux, arriba);
+        printf("\n Disco %d del poste %c al poste %c", num, pos, arriba);
+        torres(num - 1, aux, arriba, pos);
+    }
+}
+//-------------------------------------------------------------------------
+
+```
+
+![](https://lh3.googleusercontent.com/fife/AKsag4NZaDoR3UIkKIF3wa8fUYb0byzC8iiB6H79hLF1O1ixkjQHa0K1MuGGnvG9VxyfA_4Yuam2T8Hi7KrYNgD0LFMGSC7JPPhE9kxRLT53VVFhqSmY575MEO3oZF77q-ie4eZMjMpzrF-hO-WAZdnM0extrEIrdDtIlXYIdDnuAB2-ep0JZIGSUdDWG0aBvEXfSq3o8N4EghNlr0xBiJpO0_aAZBgujWm2PwRLTUlpofkcjS03wraofcX44sL2H2c-mp23oLk-KKmvOCFMSwxXP_e4DrFTBOGAm9Xo6tttfyjcjzigRWsk0Vm2J1fc5vaGgT6lHywxiqNxFloRdoWNIXD05DmgWA8mMz_qa5p5nKrpZ_Zomdt4HRG3FS00pJjhebDqY1_yyuzS10E3Je_UPqA3ATrZzOrnHU8OkHl2lGJOw_qVk05mxYzbsi9tKFboxag43_5XzoMbbAFsbbxclgqft6ozTDRneI4S9yEaz4yDzNckti2Va0rMYl6v7epoQsNMpMPiOuZooWJ1Rcmlfb4ReLGQGYgoc1hEtNGwANNi_Xo0-kyKm27mz8X9HTXvzRRrOzSoOOEv2IciU_OEEj11rBNoatrvjpOgVMND-ECtljzTEClJmr6mzgdYYjfV-ekd4cvCmP4uuofiEaw2seRWbz3AB_zqR_sMqI9FmEy0SqlhB_MTil_4Ck4LKnLkW84cezR65BAWoeDAccOz5JBLe3_BhL4QvpMlt_PygfjWX4Lw73crO0gcMEoF0tZlvoqFMg97WDvzw5l4HPSr1IroNCHJP60F9t6wVw1Tln-PwaoLujG8mN9-jgxDZaQzTF872Uf1Tvhx28clp1frS1bWeR9fhQIwGWQWWdvLTDVgpANKXRQg8vapEO53j-FUjbr0gXM6YAbPRuF5i_ITR2S7d0BiEPDHNfMZtb2EwBlQ0iwImUhQxocGvF5gt1DwFeua-ekzS1tWst4pMI3VvZDpu9fViW7ZY2NIVjOWVHouYHQycVN9aDqgvq3KcPoNQ1i8sBDFCJRYJ8_kX9r4vFYHJdRRe8t3a5mRg5SEnw4qGGUuzsNQ1kGZW-BkYMFIiFzwN9o_-yU44sPzRMi10MGfPuqjdmcNW9HsZWqZNEN4PjkVzj-VGdv5k8Iw84Vsprpdg_B6B77vkcIXKPAXOZHHePX_EAoQFUPm-RTIDkN2ydTkhRCNImHcxEYjRFBWp876cqR0pEGWrovY4xri5KlCiuJtlPLQs1mWLXbuQKDJGGC1cBf2dGTsLWlqpy_VpUhQ5PfjzGh4aMNhk7b-ddmsdM--F-YP5LTD1Yp5l8xp7p8vjA0R2fVOHdD5NV1sdDABVrGhuNM297WeiJlka7ZR06dXi38vXjBdrv9QzmskXE84uBauDB-m_ZZLwyoCMTyO_6T-Sks8Jztarmci2qvoNCo2v32bv75BS7GiFtdmFzBEghDKehGfgmnOuh4_Fde6j_6gZgBNCnN7GXYd0V5GG5QKRT7UVd_JOj7FnJq-7oD7wpmdf7mU1NgPuAFhEh3skWMd73yk2ekqj0Qh=w810-h663)
 
 ## Comandos Windows
 
