@@ -159,17 +159,17 @@ int arrow(int size){
 |-|-|
 | Dir |Se utiliza para listar los archivos y directorios(carpetas) dentro de un directorio especifico. <br><br> [![Dir.png](https://i.postimg.cc/XY7NDjF1/Dir.png)](https://postimg.cc/xchSXS6L) |
 | Cd nombre_directorio |(Change directory) Se utiliza para cambiar el directorio actual o la carpeta en la que estas trabajando en la linea de comandos. <br><br> [![cd.png](https://i.postimg.cc/Yqxq3G4m/cd.png)](https://postimg.cc/MvvSZGmW) |
-| Copy nombre_archivo <br> nombre_nuevo archivo|Se utiliza para copiar uno o más archivos desde una ubicacion a otra. |
-| ipconfig | Obtiene la información sobre la configuración de red de tu computadora. Proporciona detalles sobre la direccion de IP, la configuración de la interfaz de reed y otros datos relacionados con la conectividad de red |
-| Type nombre_archivo | Muestra el contenido de un archivo de texto directamente en la ventana de la consola. |
-| Ren nombre_archivo <br> nuevo_nombre_archivo| Se utiliza para cambiar el nombre de archivos o directorios (carpetas). |
-| Cls| Borra la pantalla o las ventanas de la consola, lo que hace que la pantalla quede limpia y sin texto. |
-| Mkdir nombre_directorio | Crea un nuevo directorio o carpeta en el sistema de archivos. |
-| Chdir nombre_directorio | Cambia el directorio actual |
-| Ver | Te da la version actual que estas utilizando en Windows | 
-|rmdir nombre_directorio | Elimina o borra un directorio o carpeta vacía en el sistema de archivos | 
-|echo "Hola mundo"| Muestra mensajes de texto en la pantalla o para redirigir texto a un archivo|
-|Tree| Muestra una representación gráfica de la estructura de directorios. |
-|del nombre_archivo | Elimina archivos de manera permanente desde la línea de comandos |
-|Find "cadena_buscar" <br> nombre_archivo| Busca un texto especifico dentro de archivos de texto o dentro de la salida generada por otros comandos. |
+| Copy nombre_archivo <br> nombre_nuevo archivo|Se utiliza para copiar uno o más archivos desde una ubicacion a otra. <br><br> [![copy.png](https://i.postimg.cc/c1rXMvHB/copy.png)](https://postimg.cc/xqVv9TLX)|
+| ipconfig | Obtiene la información sobre la configuración de red de tu computadora. Proporciona detalles sobre la direccion de IP, la configuración de la interfaz de reed y otros datos relacionados con la conectividad de red. <br><br> [![ipconfig.png](https://i.postimg.cc/4ddJNss2/ipconfig.png)](https://postimg.cc/d7bM5M7G) |
+| Type nombre_archivo | Muestra el contenido de un archivo de texto directamente en la ventana de la consola. <br><br> [![type.png](https://i.postimg.cc/Hs5NCrb9/type.png)](https://postimg.cc/VdfgqLGJ) |
+| Ren nombre_archivo <br> nuevo_nombre_archivo| Se utiliza para cambiar el nombre de archivos o directorios (carpetas). <br><br> [![Ren.png](https://i.postimg.cc/zvNgb2PB/Ren.png)](https://postimg.cc/jw85BcT0) |
+| Cls| Borra la pantalla o las ventanas de la consola, lo que hace que la pantalla quede limpia y sin texto. <br><br> [![cls-1.png](https://i.postimg.cc/zXd48KVN/cls-1.png)](https://postimg.cc/qz31GtsD) <br><br> [![cls.png](https://i.postimg.cc/jdqBpZqv/cls.png)](https://postimg.cc/5jGPv5CF)|
+| Mkdir nombre_directorio | Crea un nuevo directorio o carpeta en el sistema de archivos. <br><br> [![mkdir.png](https://i.postimg.cc/y89GhkLb/mkdir.png)](https://postimg.cc/VJf4mLQq)|
+| Chdir nombre_directorio | Cambia el directorio actual. <br><br> [![chdir.png](https://i.postimg.cc/qR9bCr8T/chdir.png)](https://postimg.cc/DJPdttjj)|
+| Ver | Te da la version actual que estas utilizando en Windows <br><br> [![ver.png](https://i.postimg.cc/t4Mhg5d0/ver.png)](https://postimg.cc/nXqsRqwT)| 
+|rmdir nombre_directorio | Elimina o borra un directorio o carpeta vacía en el sistema de archivos <br><br> [![rmdir.png](https://i.postimg.cc/8cmY836g/rmdir.png)](https://postimg.cc/JHtxZpxp)     | 
+|echo "Hola mundo"| Muestra mensajes de texto en la pantalla o para redirigir texto a un archivo. <br><br> [![echo.png](https://i.postimg.cc/CL6NZSY6/echo.png)](https://postimg.cc/LnLfwdJz)|
+|Tree| Muestra una representación gráfica de la estructura de directorios. <br><br> [![Tree.png](https://i.postimg.cc/zGrnHB67/Tree.png)](https://postimg.cc/QHfBRXXK) |
+|del nombre_archivo | Elimina archivos de manera permanente desde la línea de comandos. <br><br> [![del.png](https://i.postimg.cc/sDc2Kg1w/del.png)](https://postimg.cc/JGsmzmNk) |
+|Find "cadena_buscar" <br> nombre_archivo| Busca un texto especifico dentro de archivos de texto o dentro de la salida generada por otros comandos. <br><br> [![Find.png](https://i.postimg.cc/vZgpTPRf/Find.png)](https://postimg.cc/WdV9fw11)|
 </div>
