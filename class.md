@@ -282,3 +282,34 @@ Son ordenes directas que se generan para el sistema operativo.
 - CHMOD
 - CHOWN
 
+## Ejecucion de programas
+
+|Segmento de codigo|
+|-|
+|Segmento de datos|
+|Segmento de pila|
+
+Este es el codigo ejecutable que genera el compilador, el cual sera ejecutado dentro del sistema operativo. Todo esto se envia directamente al procesador, el cual mediante la arquitectura de von newman procesa todas estasn instrucciones
+
+| Pastes del procesador | Objetivo|
+|-|-|
+|Unidad de control| Se asegura que la ejecucion de las instrucciones de ejecuten de una manera correcta |
+|Unidad areitmetico-logica|Unidad encargada de ejecucion de instrucciones de tipo matematico, aritmetico-logicas|
+| Memoria cache | Acceso rapido a datos e instrucciones para mejroar el rendimiento |
+| registros internos | Son buffers de alta velocidad que podran almacenar la informacion requerida para el procesamiento de las instrucciones, hay dos tipos: Proposito general y proposito especifico, en el caso de los generales se puede almacenar cualquier tipos de informacion, esta informacion tiene dos posibilidades, puede gardar datos directamente o apuntadores a la informacion, para el caso de los especificos se caracterizan porque la informacion guardada en ellos es informaicon concreta y esta pensada para almacenarse exactamente en ese dispositivo. |
+| pc | es un registro de proposito especifico, es un grupo de instrucciones definidas del procesador |
+
+## Pipeline
+
+Es el proceso secuencial de la ejecucion de las instrucciones.
+
+### IF ()
+### ID ()
+Etapa de decodificacion
+Instrucciones logicas
+Instrucciones aritmeticas
+Instruccinoes de control
+### EX (Ejecucion)
+Se inicia el componente que realiza las operacines correspondientes.
+### MEM (Acceso a memoria)
+
