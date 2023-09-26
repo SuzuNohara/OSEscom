@@ -60,19 +60,21 @@ El Linux nos podemos encontrar con llamadas al sistema que nos permiten realizar
 
 | Comando| Funcionamiento |
 |-|-|
-| open ||
-| close ||
-| read ||
-| write ||
-| creat ||
-| lseek ||
-| access ||
-| stat ||
-| chmod ||
-| chown ||
-| fcntl ||
-| chdir ||
-| mkdir ||
-| opendir ||
-| readdir ||
+| open | Abre un archivo |
+| close | Cierra el descriptor de un archivo |
+| read | Lee mediante el descriptor de un archivo |
+| write | Escribe mediante el descriptor de un archivo |
+| creat | Abre un archivo y en caso de que este no exista lo crea |
+| lseek | Reposiciona el apuntador de lectura de un programa |
+| access | Permite revisar si el usuario actual tiene permisos para un archivo |
+| stat | Muestra el nomrbe del archivo o el status de un archivo |
+| chmod | Permite cambiar los permisos de lectura, escritura y ejecucion |
+| chown | Permite cambiar la propiedad de un archivo a otro usuario |
+| fcntl | Permite manipular el descriptor de un archivo |
+| chdir | Cambia el directorio de trabajo actual en la consola |
+| mkdir | Permite crear un nuevo directorio de archivos |
+| opendir | Permite abrir un directorio de archivos |
+| readdir | Permite leer el contenido de un directorio de arvhivos |
+
+
 </div> 
