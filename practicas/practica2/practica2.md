@@ -75,4 +75,22 @@ El Linux nos podemos encontrar con llamadas al sistema que nos permiten realizar
 | mkdir ||
 | opendir ||
 | readdir ||
+
+# Llamadas al sistema de Windows
+| Comando | Funcion |
+|-|-|
+|OpenFile |Crea, abre, vuelve a abrir o elimina un archivo.|
+| CloseFile | Para utilizar los recursos del sistema operativo de manera eficiente, una aplicación debe cerrar los archivos cuando ya no sean necesarios mediante la función CloseHandle. Si un archivo está abierto cuando finaliza una aplicación, el sistema lo cierra automáticamente. |
+| CloseHandle | *** |
+|ReadFile|Lee datos del archivo o dispositivo de entrada/salida (E/S) especificado. Las lecturas se producen en la posición especificada por el puntero del archivo si el dispositivo lo admite.|
+| WriteFile | Escribe datos en el archivo o dispositivo de entrada/salida (E/S) especificado.|
+|CreateFileA|Crea o abre un archivo o dispositivo de E/S. Los dispositivos de E/S más utilizados son los siguientes: archivo, flujo de archivos, directorio, disco físico, volumen, búfer de consola, unidad de cinta, recurso de comunicaciones, ranura de correo y canalización.|
+| SetFilePointer | Mueve el puntero del archivo del archivo especificado. <br> Esta función almacena el puntero del archivo en dos valores LARGO. |
+|CreateDirectoryA| Crea un nuevo directorio. <br> Si el sistema de archivos subyacente admite la seguridad de archivos y directorios, la función aplica un descriptor de seguridad específico al nuevo directorio.|
+|SetCurrentDirectory|Cambia el directorio actual para el proceso actual.|
+|GetFileAttributesA| Recupera atributos del sistema de archivos para un archivo o directorio específico.|
+|SetFileAttributesA| Establece los atributos de un archivo o directorio.|
+|FindFirstFileA |Busca en un directorio un archivo o subdirectorio con un nombre que coincida con un nombre específico (o un nombre parcial si se utilizan comodines).|
+|FindNextFileA |Continúa una búsqueda de archivos desde una llamada anterior a FindFirstFile|
+
 </div> 
