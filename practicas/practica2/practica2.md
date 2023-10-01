@@ -32,6 +32,19 @@ Sebastian Absalon Cortes<br>
 <div class="just">
 <br><br><br><br>
 
+## Marco Teorico
+
+Sistemas Operativos
+Un sistema operativo es el programa que, después de ser cargado inicialmente en la computadora por un programa de arranque, administra todos los demás programas de aplicación en una computadora. Los programas de aplicación hacen uso del sistema operativo al realizar solicitudes de servicios a través de una interfaz de programa de aplicación definida. Además, los usuarios pueden interactuar directamente con el sistema operativo a través de una interfaz de usuario, como una interfaz de línea de comandos o una interfaz de usuario gráfica.
+<br>
+Windows
+Se conoce como Windows, MS Windows o Microsoft Windows a una familia de sistemas operativos para computadores personales, teléfonos inteligentes y otros sistemas informáticos, creados y comercializados por la empresa norteamericana Microsoft para diversos soportes de arquitectura de sistemas.
+La primera aparición de Windows ocurrió en 1985, como un paso adelante en la modernización del MS-DOS hacia los entornos gráficos de usuario (GUI), y desde entonces se ha convertido en el sistema operativo más utilizado del mundo, copando prácticamente la totalidad de la cuota de mercado disponible (90%) durante años.
+Windows ofreció a sus usuarios una creciente variedad de versiones disponibles y actualizadas del programa, con diferencias notorias en cuanto a su aspecto, estabilidad y potencias. La incorporación de Internet permitió, además, la actualización automática del software en cualquier parte del mundo.
+
+Linux
+Linux es un sistema operativo open source. En 1991, Linus Torvalds lo diseñó y creó a modo de pasatiempo. Mientras estaba en la universidad, intentó crear una versión open source, alternativa y gratuita del sistema operativo MINIX, que a su vez se basaba en los principios y el diseño de Unix. Ese pasatiempo logró convertirse en el SO con la mayor base de usuarios, el más usado en los servidores de Internet disponibles públicamente y en el único utilizado en las 500 supercomputadoras más rápidas.
+
 ## Archivos en windows y linux
 
 Gracias al tiempo que estos sistemas operativos han estado activos en el mundo y a la cantidad de usuarios que les dan soporte dia con dia y crean mas y mejores herramientas para poder ocuparlos, windows y linux son cada dia mas compatibles, esto nos permite en muchas ocasiones poder trabajar algo en un sistema operativo y cambairnos a otro sin mayor problema, sin embargo esto no siempre sucede, en alguans ocasiones y mas si no tenemos experiencia con el tema, podemos tener ciertos errores al momento de trabajar con ambos sistemas operativos, a continuacion veremos algunos ejemplos de ello.
