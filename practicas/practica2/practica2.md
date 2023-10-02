@@ -105,5 +105,18 @@ El Linux nos podemos encontrar con llamadas al sistema que nos permiten realizar
 |SetFileAttributesA| Establece los atributos de un archivo o directorio.|
 |FindFirstFileA |Busca en un directorio un archivo o subdirectorio con un nombre que coincida con un nombre específico (o un nombre parcial si se utilizan comodines).|
 |FindNextFileA |Continúa una búsqueda de archivos desde una llamada anterior a FindFirstFile|
+# Programas en Windows
+Un programa en C que crea una serie aleatoria de archivos.
+[![programa-8.png](https://i.postimg.cc/t4mWmmqD/programa-8.png)](https://postimg.cc/G4G44Kss)
+En el siguiente programa ingrese la ruta C:\Users\, mostrando en la terminal su tamaño, hora de acceso y nombre.
+[![programa-10.png](https://i.postimg.cc/4dvr5c6v/programa-10.png)](https://postimg.cc/0MQW5bHr)
+Como ultimo muestro el funcionamiento para el programa del punto numero 11 de la práctica, en donde se muestra el contenido de los archivos seleccionados y los copie en un nuevo directorio.
+[![programa-11.png](https://i.postimg.cc/XqG9Wfsd/programa-11.png)](https://postimg.cc/K3b1rMS8)
+[![programa-11-2.png](https://i.postimg.cc/SstcHTfm/programa-11-2.png)](https://postimg.cc/jwPW7h11)
+Aqui el proceso que se realizo para copiar un archivo a un nuevo directorio.
+[![programa-11-3.png](https://i.postimg.cc/tC0jFFLc/programa-11-3.png)](https://postimg.cc/8sb9Sfkd)
+Muestro que el archivo fue copiado sin problemas en el nuevo directorio.
+[![programa-11-4.png](https://i.postimg.cc/FsjQp7vH/programa-11-4.png)](https://postimg.cc/nCc5cVMy)
+
 
 </div> 
