@@ -195,4 +195,9 @@ Muestro que el archivo fue copiado sin problemas en el nuevo directorio.
 Es importante conocer las herramientas necesarias y las funciones disponibles por parte del sistema para la manipulación de los medios, permisos y archivos, sin este tipo de llamadas al sistema sería más complicado realizar tareas simples como el manejo de archivos, ya que una interfaz superior que tuviese que cumplir esta función complicaría el uso del sistema y la velocidad con la que este podría ejecutar sus acciones normales, es importante remarcar el hecho de que el sistema maneja muchas de estas funciones de forma análoga entre los distintos sistemas operativos, esto nos hace recordar la época en la cual los sistemas operativos se dividieron en sus dos principales vertientes, las cuales perduran hasta el día de hoy, sin embargo, debido principalmente a que las computadoras parten de una misma base, estructura y arquitectura es posible encontrarse con las mismas llamadas al sistema o al menos con llamadas al sistema equivalentes debido principalmente a estas similitudes entre los sistemas.
 En conclusion podemos ver que hay unos formatos como el .txt, que pueden abrirse en los dos diferentes sistemas operativos, pero de la misma manera hay unos archivos que solo pueden ser abiertos por solo un formato de sistemas operativos. Podemos poner como ejemplo el archivo creado en word, el cual solo puede ser abierto y modificado en el sistema operatvio de Windows, pero este formato no puede ser abierto o modificado en Linux.
 
+
+En esta práctica, tuve la oportunidad de manejar Linux y Windows, dos de los sistemas operativos más utilizados. A través del uso de la interfaz de llamadas al sistema en lenguaje C, obteniendo conceptos clave y habilidades que son esenciales para trabajar con estos sistemas.
+
+
+
 </div> 
