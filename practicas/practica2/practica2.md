@@ -106,7 +106,13 @@ El Linux nos podemos encontrar con llamadas al sistema que nos permiten realizar
 |FindFirstFileA |Busca en un directorio un archivo o subdirectorio con un nombre que coincida con un nombre específico (o un nombre parcial si se utilizan comodines).|
 |FindNextFileA |Continúa una búsqueda de archivos desde una llamada anterior a FindFirstFile|
 # Programas en Windows
+
 Un programa en C que crea una serie aleatoria de archivos.
+
+<br><br><br>
+
+[![codigo-p8.png](https://i.postimg.cc/MT6PbFd5/codigo-p8.png)](https://postimg.cc/PL7Qd2Gv)
+
 <br><br><br>
 [![programa-8.png](https://i.postimg.cc/t4mWmmqD/programa-8.png)](https://postimg.cc/G4G44Kss)
 <br><br><br>
