@@ -136,7 +136,7 @@ Lista de archivos creados, mostrando su tamaño, fecha y hora de acceso.
 
 Programa que copie uno o más de los archivos creados a un directorio previamente establecido.
 <br> <br>
-[![programa-11-3.png](https://i.postimg.cc/tC0jFFLc/programa-11-3.png)](https://postimg.cc/8sb9Sfkd)
+[![codigo-p11.png](https://i.postimg.cc/mZN6dqk7/codigo-p11.png)](https://postimg.cc/hhvrv29G)
 
 <br> <br>
 
