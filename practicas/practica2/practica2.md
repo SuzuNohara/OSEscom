@@ -114,14 +114,31 @@ Un programa en C que crea una serie aleatoria de archivos.
 [![codigo-p8.png](https://i.postimg.cc/MT6PbFd5/codigo-p8.png)](https://postimg.cc/PL7Qd2Gv)
 
 <br><br><br>
+
 [![programa-8.png](https://i.postimg.cc/t4mWmmqD/programa-8.png)](https://postimg.cc/G4G44Kss)
+
 <br><br><br>
+
 En el siguiente programa ingrese la ruta C:\Users\, mostrando en la terminal su tamaño, hora de acceso y nombre.
+
 <br><br><br>
+
+[![codigo-p10.png](https://i.postimg.cc/LsTvXV21/codigo-p10.png)](https://postimg.cc/JysjYZyr)
+
+<br><br><br>
+
 [![programa-10.png](https://i.postimg.cc/4dvr5c6v/programa-10.png)](https://postimg.cc/0MQW5bHr)
+
 <br><br><br>
+
 Como ultimo muestro el funcionamiento para el programa del punto numero 11 de la práctica, en donde se muestra el contenido de los archivos seleccionados y los copie en un nuevo directorio.
+
 <br><br><br>
+
+[![codigo-p11.png](https://i.postimg.cc/mZN6dqk7/codigo-p11.png)](https://postimg.cc/hhvrv29G)
+
+<br><br><br>
+
 [![programa-11.png](https://i.postimg.cc/XqG9Wfsd/programa-11.png)](https://postimg.cc/K3b1rMS8)
 [![programa-11-2.png](https://i.postimg.cc/SstcHTfm/programa-11-2.png)](https://postimg.cc/jwPW7h11)
 <br><br><br>
