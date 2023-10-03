@@ -117,6 +117,12 @@ Serie aleatoria de archivos.
 [![aleatorio.jpg](https://i.postimg.cc/gjkytgtK/aleatorio.jpg)](https://postimg.cc/N9Sr5kcy)
 
 <br> <br>
+Los archivos creados.
+<br> <br>
+[![archivos.png](https://i.postimg.cc/k5TW6Qg6/archivos.png)](https://postimg.cc/d7ThgTdw)
+
+
+<br> <br>
 
 Lista de archivos creados, mostrando su tamaño, fecha y hora de acceso.
 <br> <br>
