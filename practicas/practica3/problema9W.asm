@@ -1,3 +1,11 @@
+segment .data
+  cont db '0'; se reserva un byte de enters
+  enters db 0xA
+segment .bss
+  handleConsola resd 1
+  longitudCadena resd 1
+  caractEscritos resd 1
+  ultimoArgumento resd 1
 segment .text
 global _start
 extern _GetStdHandle@4;
