@@ -313,3 +313,10 @@ Instruccinoes de control
 Se inicia el componente que realiza las operacines correspondientes.
 ### MEM (Acceso a memoria)
 
+---
+
+Proceso | Tiempo de duracion | Tiempo de llegada | Prioridad |
+|-|-|-|-|
+|01|10|00|03|
+|02|05|03|02|
+|||||
