@@ -7,7 +7,7 @@
     .subtitle{font-size: 30px;}
 </style>
 
-# Practica 2
+# Practica 3
 
 <div class="center title">
 Instituto Politecnico Nacional
@@ -33,6 +33,19 @@ Sebastian Absalon Cortes<br>
 <br><br><br><br>
 
 # Marco Teorico
+La "interfaz de interrupciones" se refiere a un componente o conjunto de funciones en un sistema informático que permite la comunicación entre dispositivos o componentes hardware y el procesador central a través del uso de interrupciones. Las interrupciones son señales o eventos generados por dispositivos periféricos o componentes del sistema que requieren la atención del procesador de manera inmediata o en un momento específico. La interfaz de interrupciones facilita la gestión de estas señales de interrupción.
+
+La interfaz de interrupciones se utiliza para:
+
+1.- Gestionar interrupciones: Cuando un dispositivo o componente necesita la atención del procesador, genera una señal de interrupción. La interfaz de interrupciones se encarga de detectar y gestionar estas interrupciones, determinando su prioridad y dirigiendo el control al manejador de interrupciones adecuado.
+
+2.- Asignar prioridades: Los sistemas informáticos a menudo tienen múltiples dispositivos y componentes que pueden generar interrupciones. La interfaz de interrupciones permite asignar prioridades a estas interrupciones para garantizar que las más críticas se manejen primero.
+
+3.- Enrutamiento de interrupciones: En sistemas más complejos, puede haber una jerarquía de controladores de interrupciones que dirigen las señales de interrupción a los manejadores correspondientes. La interfaz de interrupciones se encarga de este enrutamiento.
+
+4.- Almacenamiento del estado: La interfaz de interrupciones puede guardar el estado actual de la CPU antes de que se maneje una interrupción, de manera que la CPU pueda reanudar su trabajo en el punto donde se detuvo una vez que se haya completado el manejo de la interrupción.
+
+En sistemas modernos, la interfaz de interrupciones se implementa a través de hardware y software. Los controladores de interrupciones son programas de software que gestionan las interrupciones generadas por los dispositivos, y el hardware proporciona las señales y registros necesarios para el enrutamiento y manejo de interrupciones. La interfaz de interrupciones es esencial para garantizar que los dispositivos periféricos puedan comunicarse con el procesador central de manera eficiente y oportuna, lo que contribuye al funcionamiento adecuado del sistema informático.
 
 # Programa 1
 
