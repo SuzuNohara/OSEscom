@@ -47,4 +47,28 @@ Sebastian Absalon Cortes<br>
 |Rar||
 
 2.- Capture y ejecute el siguiente batch. Guarde el archivo con extensión .bat. Observe su funcionamiento y explique.
+5. -Capture y ejecute el siguiente 
+````bat
+@echo off
+echo Opciones:
+echo Directorio
+echo DirectorioExtendido
+echo Salir
+set /p Op="Opcion: "
+for %%V IN (Directorio DirectorioExtendido Salir) do (call :opcion_elegida %%V)
+goto :salir
+
+:opcion_elegida
+ if %Op%==Directorio dir & goto :salir
+ if %Op%==DirectorioExtendido echo "Similar a dir" & goto :salir
+ if %Op%==Salir goto :salir
+echo "Opcion no encontrada"
+goto :salir
+:salir
+ for %%V in (Hola como estan todos) do echo %%V
+ pause
+ exit(0) 
+````
+[![p5-batch.png](https://i.postimg.cc/pV4k5Vsg/p5-batch.png)](https://postimg.cc/YjNQJ7K3)
+[![p5-1-batch.png](https://i.postimg.cc/23NSnfZ4/p5-1-batch.png)](https://postimg.cc/hQMnq6Mj)
 ###
