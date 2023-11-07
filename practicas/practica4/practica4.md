@@ -81,7 +81,10 @@ echo "--- Fecha ---"
 for /F "tokens=1,2,3 delims=/" %%V in ('date /t') do set dia=%%V%%W%%X
 set tiempo=%time%
 for /F  "tokens=1,2,3 delims=/." %%V in (%tiempo%) do set tiempo=%%V%%W%%X
+set fecha=%dia%%tiempo%
 
+echo "--- Empacando ---"
+tar -cvf 
 
 ````
 7.- Programe un script genrador de scripts, es decir, que cree un archivo, que posteriormente permita editarlo y que finalmente cambie los permisos para ejecución del archivo, mandando a jecturar el script desde el script original.
