@@ -71,4 +71,20 @@ goto :salir
 ````
 [![p5-batch.png](https://i.postimg.cc/pV4k5Vsg/p5-batch.png)](https://postimg.cc/YjNQJ7K3)
 [![p5-1-batch.png](https://i.postimg.cc/23NSnfZ4/p5-1-batch.png)](https://postimg.cc/hQMnq6Mj)
+6.- Programe un script para que descomprima en sus rutas originales los directorios que se han compreso con el anterior script.
+````bat
+@echo off
+cls
+
+set rar_path=C:\Program Files\WinRAR\WinRAR.exe
+echo "--- Fecha ---"
+for /F "tokens=1,2,3 delims=/" %%V in ('date /t') do set dia=%%V%%W%%X
+set tiempo=%time%
+for /F  "tokens=1,2,3 delims=/." %%V in (%tiempo%) do set tiempo=%%V%%W%%X
+
+
+````
+7.- Programe un script genrador de scripts, es decir, que cree un archivo, que posteriormente permita editarlo y que finalmente cambie los permisos para ejecución del archivo, mandando a jecturar el script desde el script original.
+8.- Programe un script a través de las estructuras de control de flujo para que permita visualizar los archivos de un directorio que se envíe como argumento de entrada (no utilizar el comando ls). Además, el script deberá mostrar el número total de archivos en el directorio.
+9.- Programe un script que elimine todos los archivos de un directorio especificado desde el propio script, y cuyo segundo carácter sea la letra “e”. 
 ###
