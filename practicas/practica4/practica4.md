@@ -36,4 +36,15 @@ Sebastian Absalon Cortes<br>
 
 ## Seccion de linux
 
+## Seccion de Windows
+1.- Investigue los siguientes comandos: echo, del, date, tar, rar. Dé un resumen de sus características y funcionalidad.
+| Comandos | Caracteristicas |
+| - | - |
+|Echo||
+|Del||
+|Date||
+|Tar||
+|Rar||
+
+2.- Capture y ejecute el siguiente batch. Guarde el archivo con extensión .bat. Observe su funcionamiento y explique.
 ###
