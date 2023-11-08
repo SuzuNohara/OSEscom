@@ -75,16 +75,26 @@ goto :salir
 ````bat
 @echo off
 cls
-
 set rar_path=C:\Program Files\WinRAR\WinRAR.exe
-echo "--- Fecha ---"
-for /F "tokens=1,2,3 delims=/" %%V in ('date /t') do set dia=%%V%%W%%X
+echo "-------------- Captura fecha ---------------"
+for /F "tokens=1,2,3  delims=/ " %%V in ('date /t') do set dia=%%V%%W%%X
 set tiempo=%time%
-for /F  "tokens=1,2,3 delims=/." %%V in (%tiempo%) do set tiempo=%%V%%W%%X
-set fecha=%dia%%tiempo%
-
-echo "--- Empacando ---"
-tar -cvf 
+for /F "tokens=1,2,3 delims=:." %%V in ("%tiempo%") do set tiempo=%%V%%W%%X
+set fecha=%dia%%tiempo% 
+echo "-------------- Empacando ----------------"    
+tar -cvf  .\respaldo%fecha%.rar  .\directorio1  .\directorio2  .\directorio3
+echo "-------------- Comprimiendo ----------------"
+"%rar_path%" a -c- .\respaldo%fecha%.rar .\respaldo%fecha%.tar
+echo "-------------- Enviando a otro directorio --------------"
+copy .\respaldo%fecha%.rar    .\respaldos\
+echo "-------------- Descomprimiendo ------------------"
+"%rar_path%" e -y .\respaldos\respaldo%fecha%.rar .\respaldos
+echo "-------------- Desempacando ----------------"
+tar  -xvf  .\respaldos\respaldo%fecha%.tar  -C  respaldos\
+echo "-------------- Limpiando ------------------"
+del .\respaldo%fecha%.rar
+del .\respaldo%fecha%.tar
+echo "-------------- Terminado ------------------"
 
 ````
 7.- Programe un script genrador de scripts, es decir, que cree un archivo, que posteriormente permita editarlo y que finalmente cambie los permisos para ejecución del archivo, mandando a jecturar el script desde el script original.
