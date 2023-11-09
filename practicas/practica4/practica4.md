@@ -45,7 +45,11 @@ Sebastian Absalon Cortes<br>
 |Date|Muestra o establece la fecha del sistema. Si se usa sin parámetros, date muestra la configuración de fecha actual del sistema y le pide que introduzca una nueva fecha.|
 |Tar|El comando tar archiva y recupera archivos en y a partir de un solo archivo denominado tarfile. Un tarfile suele ser una cinta, pero puede tratarse de un archivo cualquiera.|
 |Rar|RAR es un formato de compresión propietario, perteneciente a la empresa RarLabs Esto sirve para comprimir y descomprimir archivos en formato *.rar|
+
+
 2.- Capture y ejecute el siguiente batch. Guarde el archivo con extensión .bat. Observe su funcionamiento y explique.
+
+
 5. -Capture y ejecute el siguiente 
 ````bat
 @echo off
