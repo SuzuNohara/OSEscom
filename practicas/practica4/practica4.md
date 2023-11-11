@@ -48,6 +48,7 @@ Sebastian Absalon Cortes<br>
 
 
 2.- Capture y ejecute el siguiente batch. Guarde el archivo con extensión .bat. Observe su funcionamiento y explique.
+````bat
 @echo off
 rem
 cls
@@ -68,11 +69,11 @@ dir .\prueba
 rem
 echo "------------------ Script terminado ----------------------"
 type .\prueba
-
+````
 3.- Capture y ejecute el siguiente batch. Sustituya las rutas utilizadas en el batch por las rutas que usted
 utilice. Deberá tener instalado el programa Winrar para utilizar el comando rar en el script. Observe
 su funcionamiento y explique.
-
+````bat
 @echo off
 cls
 echo "-------------- Captura fecha ---------------"
@@ -94,9 +95,9 @@ echo "-------------- Limpiando ------------------"
 del .\respaldo%fecha%.rar
 del .\respaldo%fecha%.tar
 echo "-------------- Terminado ------------------"
-
+````
 4.- Capture y ejecute el siguiente script. Observe su funcionamiento.
-
+````bat
 @echo off
 set /p Var1="Introduce valor del primer numero: "
 set /p Var2="Introduce valor del segundo numero: "
@@ -114,7 +115,7 @@ echo contador=%1
 goto :eof
 :salir
 pause
-
+````
 5. -Capture y ejecute el siguiente 
 ````bat
 @echo off
