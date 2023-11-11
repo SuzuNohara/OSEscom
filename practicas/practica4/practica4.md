@@ -46,6 +46,7 @@ Sebastian Absalon Cortes<br>
 |Tar|El comando tar archiva y recupera archivos en y a partir de un solo archivo denominado tarfile. Un tarfile suele ser una cinta, pero puede tratarse de un archivo cualquiera.|
 |Rar|RAR es un formato de compresión propietario, perteneciente a la empresa RarLabs Esto sirve para comprimir y descomprimir archivos en formato *.rar|
 
+[![Captura-de-pantalla-2023-11-11-103903.png](https://i.postimg.cc/Pq2gpNdY/Captura-de-pantalla-2023-11-11-103903.png)](https://postimg.cc/5HQ7D4Y2)
 
 2.- Capture y ejecute el siguiente batch. Guarde el archivo con extensión .bat. Observe su funcionamiento y explique.
 ````bat
