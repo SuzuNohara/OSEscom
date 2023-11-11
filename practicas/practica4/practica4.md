@@ -48,7 +48,72 @@ Sebastian Absalon Cortes<br>
 
 
 2.- Capture y ejecute el siguiente batch. Guarde el archivo con extensión .bat. Observe su funcionamiento y explique.
+@echo off
+rem
+cls
+rem
+dir .\prueba
+rem
+del .\prueba
+rem
+dir .\prueba
+rem
+echo "------------------ Creando archivo: prueba ----------------"
+rem
+echo "Hola a todos" >> prueba
+echo "Esto es una prueba" >> prueba
+echo "De un batch" >> prueba
+rem
+dir .\prueba
+rem
+echo "------------------ Script terminado ----------------------"
+type .\prueba
 
+3.- Capture y ejecute el siguiente batch. Sustituya las rutas utilizadas en el batch por las rutas que usted
+utilice. Deberá tener instalado el programa Winrar para utilizar el comando rar en el script. Observe
+su funcionamiento y explique.
+
+@echo off
+cls
+echo "-------------- Captura fecha ---------------"
+for /F "tokens=1,2,3 delims=/ " %%V in ('date /t') do set dia=%%V%%W%%X
+set tiempo=%time%
+for /F "tokens=1,2,3 delims=:." %%V in ("%tiempo%") do set tiempo=%%V%%W%%X
+set fecha=%dia%%tiempo%
+echo "-------------- Empacando ----------------"
+tar -cvf .\respaldo%fecha%.tar .\directorio1 .\directorio2 .\directorio3
+echo "-------------- Comprimiendo ----------------"
+rar a -c- .\respaldo%fecha%.rar .\respaldo%fecha%.tar
+echo "-------------- Enviando a otro directorio --------------"
+copy .\respaldo%fecha%.rar .\respaldos\
+echo "-------------- Descomprimiendo ------------------"
+rar e -y .\respaldos\respaldo%fecha%.rar .\respaldos
+echo "-------------- Desempacando ----------------"
+tar -xvf .\respaldos\respaldo%fecha%.tar -C respaldos\
+echo "-------------- Limpiando ------------------"
+del .\respaldo%fecha%.rar
+del .\respaldo%fecha%.tar
+echo "-------------- Terminado ------------------"
+
+4.- Capture y ejecute el siguiente script. Observe su funcionamiento.
+
+@echo off
+set /p Var1="Introduce valor del primer numero: "
+set /p Var2="Introduce valor del segundo numero: "
+if %Var1% LSS %Var2% echo %Var1% es menor que %Var2% & goto :seguir_if
+echo %Var1% es mayor o igual que %Var2%
+if %Var1% EQU 10 echo Fui un 10 & goto :salir
+if %Var1% EQU 20 echo Fui un 20 & goto :salir
+echo Fui otro valor
+goto :salir
+:seguir_if
+for /L %%V IN (%Var1%,1,%Var2%) do (call :imprime_valor %%V)
+goto :salir
+:imprime_valor
+echo contador=%1
+goto :eof
+:salir
+pause
 
 5. -Capture y ejecute el siguiente 
 ````bat
