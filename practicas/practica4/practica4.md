@@ -167,7 +167,58 @@ del .\respaldo%fecha%.tar
 echo "-------------- Terminado ------------------"
 
 ````
+[![6.png](https://i.postimg.cc/JnDHTrLF/6.png)](https://postimg.cc/Q9DMCrVg)
+[![6-1.png](https://i.postimg.cc/Xq9GbsXc/6-1.png)](https://postimg.cc/rRFFGC1K)
+[![6-2.png](https://i.postimg.cc/JnktNp3V/6-2.png)](https://postimg.cc/9RcWVtNJ)
+````bat
+@echo off
+cls
+set rar_path=C:\Program Files\WinRAR\WinRAR.exe
+echo "-------------- Enviando al directorio original ------------------"
+copy .\respaldos\respaldo.rar .\
+echo "-------------- Descomprimiendo ------------------"
+"%rar_path%" e -y .\respaldo.tar -C .\
+echo "-------------- Limpiando ------------------"
+del .\respaldo.rar
+del .\respaldo.tar
+echo "-------------- Terminado ------------------"
+````
+[![6-3.png](https://i.postimg.cc/B6HQLXsJ/6-3.png)](https://postimg.cc/sQfRbfvL)
+[![6-4.png](https://i.postimg.cc/sxKz7WLC/6-4.png)](https://postimg.cc/9w4sjDVL)
 7.- Programe un script genrador de scripts, es decir, que cree un archivo, que posteriormente permita editarlo y que finalmente cambie los permisos para ejecución del archivo, mandando a jecturar el script desde el script original.
+````bat
+@echo off
+echo "-------------- Extension del archivo ------------------"
+set/p extension = "Ingrese la extension del archivo: "
+set mensaje = Creando un archivo %extension%
+echo.
+timeout /t 1 /nobreak > NUL
+echo "-------------- %mensaje% ------------------"
+echo .>ejecutable.%extension%
+echo.
+timeout /t 1 /nobreak > NUL
+echo "-------------- Archivo creado ------------------"
+echo.
+timeout /t 1 /nobreak >NUL
+echo "-------------- Editando archivo ------------------"
+set /p edicion= "Ingrese el contenido del archivo: "
+echo %edicion%>ejecutable.%extension%
+echo.
+timeout /t 1 /nobreak >NUL
+echo "-------------- Ejecutando archivo ------------------"
+start ejecutable .%extension%
+echo.
+echo "-------------- Finalizado ------------------"
+````
+![image](https://github.com/SuzuNohara/OSEscom/assets/114888921/054cf3ff-9d30-47cb-a736-dacbb2124fd5)
+![image](https://github.com/SuzuNohara/OSEscom/assets/114888921/4d5c045f-89e9-490a-89c0-bc72bdef3411)
+![image](https://github.com/SuzuNohara/OSEscom/assets/114888921/08704acc-c9bc-4702-b5a8-923936253198)
+
 8.- Programe un script a través de las estructuras de control de flujo para que permita visualizar los archivos de un directorio que se envíe como argumento de entrada (no utilizar el comando ls). Además, el script deberá mostrar el número total de archivos en el directorio.
+````bat
+
+````
 9.- Programe un script que elimine todos los archivos de un directorio especificado desde el propio script, y cuyo segundo carácter sea la letra “e”. 
+````bat
+````
 ###
