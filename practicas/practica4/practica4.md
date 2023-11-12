@@ -228,9 +228,54 @@ echo "-------------- Finalizado ------------------"
 
 8.- Programe un script a través de las estructuras de control de flujo para que permita visualizar los archivos de un directorio que se envíe como argumento de entrada (no utilizar el comando ls). Además, el script deberá mostrar el número total de archivos en el directorio.
 ````bat
+@echo off
+set /a num_archivo=0
+if "%1"==""(
+  echo Debe ingresar un directorio como argumento de entrada.
+  goto fin
+)
+if not exist %1(
+  echo %1 no es un directorio válido.
+  goto fin
+)
+echo Archivos en %1:
+for %%f in (%1\*) do(
+  if %%~xf NEQ "" (
+    echo %%~nxf
+    set /a num_archivos+=1
+  )
+)
+echo El directorio %1 contiene %num_archivos% archivos.
 
+:fin
 ````
+![image](https://github.com/SuzuNohara/OSEscom/assets/114888921/3c4d9f31-9b5a-4492-b329-3bd611bdba64)
+
+
+Para su ejecución se requiere con un argumento que será el directorio al que se evaluará (no cuenta carpetas ya que estos cuentan como directorios), con la estructura for vamos imprimiendo el nombre de cada archivo.
+
 9.- Programe un script que elimine todos los archivos de un directorio especificado desde el propio script, y cuyo segundo carácter sea la letra “e”. 
 ````bat
+@echo off
+setlocal enabledelayedexpansion
+set /p directorio=Introduce la ruta del directorio:
+for %%f in ("%directorio%\") do (
+    set "filename=%%~nfx"
+    if "!filename:~1,1!" == "e" (
+        del "%%~f"
+    )
+)
+
+echo Archivos eliminados correctamente
+pause
 ````
+![image](https://github.com/SuzuNohara/OSEscom/assets/114888921/5a80a31d-f79e-4618-8452-9b309ee34b0e)
+![image](https://github.com/SuzuNohara/OSEscom/assets/114888921/1ed23ec1-f248-45d1-9201-8faabfec21ed)
+
+# Conclusiones
+En conclusion, la programación bajo el intérprete de comandos (shell) en sistemas Linux y Windows representa una valiosa técnica para interactuar con el sistema operativo a través de una interfaz de línea de comandos en lugar de una interfaz gráfica. Tanto el Bash en Linux como el PowerShell en Windows ofrecen herramientas avanzadas para la programación y la automatización de tareas del sistema.
+<br>
+Esta habilidad resulta fundamental para administradores de sistemas, desarrolladores de software y cualquier persona que busque optimizar la ejecución de tareas del sistema. Los scripts creados en el entorno de shell son portátiles entre diferentes sistemas operativos, lo que posibilita su escritura una sola vez y su ejecución en diversas plataformas.
+
+
 ###
