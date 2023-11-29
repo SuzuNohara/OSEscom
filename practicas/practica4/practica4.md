@@ -26,13 +26,27 @@ Programacion bajo el interprete de comandos (shell)
 <div class="center">
 Etnan Jezreel Lopez Torres <br>
 Gonzaga Martínez José Alberto <br>
-Sebastian Absalon Cortes<br>
+Sebastián Absalón Cortés<br>
 </div>
 
 <div class="just">
 <br><br><br><br>
 
 # Marco teorico
+El intérprete de comandos permite la comunicación entre el sistema y el usuario. Aunque actualmente las interficies gráficas de usuario (GUI) facilitan el trabajo cotidiano, todavía existen funciones, como la automatización de tareas, que se resuelven mejor desde la línea de comandos (CLI Command Line Interface).
+
+Las ventajas evidentes de la línea de comandos frente a la interfaz gráfica son:
+
+-Mayor capacidad de expresión semántica
+-Menor consumo de recursos (muy importante si se actúa sobre sistemas remotos mediante una conexión lenta)
+-Posibilidad de programar guiones o scripts.
+-Programas y sintáxis enfocada a conseguir una mayor productividad
+
+Entre los inconvenientes:
+-El usuario precisa de un aprendizaje previo
+-Funcionamiento menos intuitivo
+
+Existen multitud de intérpretes de comandos, en algunos sistemas operativos puede haber varios instalados y cada usuario decide cuál utilizar.
 
 ## Seccion de linux
 
