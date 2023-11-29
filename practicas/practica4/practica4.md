@@ -37,14 +37,14 @@ El intérprete de comandos permite la comunicación entre el sistema y el usuari
 
 Las ventajas evidentes de la línea de comandos frente a la interfaz gráfica son:
 
--Mayor capacidad de expresión semántica \n
--Menor consumo de recursos (muy importante si se actúa sobre sistemas remotos mediante una conexión lenta) \n
--Posibilidad de programar guiones o scripts. \n
--Programas y sintáxis enfocada a conseguir una mayor productividad \n
+-Mayor capacidad de expresión semántica <br>
+-Menor consumo de recursos (muy importante si se actúa sobre sistemas remotos mediante una conexión lenta) <br>
+-Posibilidad de programar guiones o scripts. <br>
+-Programas y sintáxis enfocada a conseguir una mayor productividad <br>
 
 Entre los inconvenientes:
--El usuario precisa de un aprendizaje previo \n
--Funcionamiento menos intuitivo \n
+-El usuario precisa de un aprendizaje previo <br>
+-Funcionamiento menos intuitivo <br>
 
 Existen multitud de intérpretes de comandos, en algunos sistemas operativos puede haber varios instalados y cada usuario decide cuál utilizar.
 
