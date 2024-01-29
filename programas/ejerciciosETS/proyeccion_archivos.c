@@ -6,6 +6,8 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+// programa 3
+
 void comparar_archivos(char *nombre_archivo1, char *nombre_archivo2) {
     int fd1, fd2;
     struct stat stat1, stat2;
