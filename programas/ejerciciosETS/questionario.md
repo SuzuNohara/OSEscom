@@ -10,12 +10,13 @@
 2. Compartición de memoria en el sistema operativo:
    La compartición de memoria permite que varios procesos accedan a la misma área de memoria. Un ejemplo en código en C sería el uso de la función `shmget` y `shmat` para crear y adjuntar una región de memoria compartida.
 
-   c
+   ```c
    #include <sys/ipc.h>
    #include <sys/shm.h>
 
    int shmid = shmget(key, size, IPC_CREAT | 0666);
    char *shared_memory = (char*) shmat(shmid, NULL, 0);
+   ```
 
    [Scales topics](https://www.scaler.com/topics/shared-memory-linux/)<br>
    
